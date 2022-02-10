@@ -1,0 +1,33 @@
+{
+  "name": "@ermilburn02/webgine",
+  "version": "0.1.0",
+  "description": "2D Game Engine using Web Technologies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-node": "tsc -p ./node.tsconfig.json",
+    "build-web": "webpack --mode=production --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ERmilburn02/Webgine.git"
+  },
+  "keywords": [
+    "Game",
+    "Engine",
+    "Web"
+  ],
+  "author": "Eliza Milburn <ermilburn02@outlook.com> (https://www.ermilburn02.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ERmilburn02/Webgine/issues"
+  },
+  "homepage": "https://github.com/ERmilburn02/Webgine#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
